@@ -1,0 +1,13 @@
+.maincontainer{
+    display: flex;
+   margin-top: 0.2rem;
+    padding: 10px;
+    margin-left: 1px;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: yellow;
+    gap: 50px;
+    font-size: 1.3rem;
+    justify-content: center;
+
+}
