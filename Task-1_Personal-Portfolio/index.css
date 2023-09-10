@@ -566,7 +566,7 @@ footer a{
     padding: .6rem;
     border-radius: 5px;
 }
-footer a i{
+footer i{
     font-size: 1rem;
     color: black;
 }
@@ -602,38 +602,4 @@ footer a i{
     border: 2px solid black;
 }
 
-a.btn:hover{
-    color: blue;
-
-}
-
-a.btn::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-background:greenyellow;
-width: 0;
-height: 100%;
-z-index: -1;
-transition: .4s;
-}
-
-a.btn:hover::before{
-    width: 100%;
-
-}
-a.btn:nth-child(2){
-    background: rgb(220, 223, 86);
-    color: black;
-}
-
-a.btn:nth-child(2):hover{
-    
-    color: rgb(255, 64, 0);
-}
-
-a.btn:nth-child(2)::before{
-    background: rgb(93, 225, 93);
-}
 
